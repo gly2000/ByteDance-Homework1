@@ -14,8 +14,8 @@ class SearchViewHolder(parent: ViewGroup) : RecyclerView.ViewHolder(
     fun bind(item: ItemTemplate) {
         itemView.findViewById<TextView>(R.id.name).setText(item.getName())
         itemView.findViewById<TextView>(R.id.age).setText("Age: " + item.getAge())
-        itemView.findViewById<TextView>(R.id.gender).setText("Age: " + item.getGender())
-        itemView.findViewById<TextView>(R.id.health).setText("Breed: " + item.getHealth())
+        itemView.findViewById<TextView>(R.id.gender).setText("Gender: " + item.getGender())
+        itemView.findViewById<TextView>(R.id.health).setText("Health: " + item.getHealth())
     }
 
 }
